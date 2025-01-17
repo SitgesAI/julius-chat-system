@@ -2,7 +2,7 @@
 
 ## Benvinguts col·laboradors! 🎉
 
-Estem emocionats de que vulguis contribuir al Julius Chat System.
+Gràcies per l'interès en contribuir al Julius Chat System, desenvolupat per SitgesAI.
 
 ## Com Puc Contribuir?
 
@@ -28,3 +28,7 @@ Estem emocionats de que vulguis contribuir al Julius Chat System.
 - Seguim PEP 8
 - Tests unitaris
 - Documentació actualitzada
+
+## Llicència
+
+Aquest projecte està sota la [MIT License](LICENSE) © 2025 SitgesAI.
