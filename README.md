@@ -1,19 +1,30 @@
-# Julius Chat System
+# Sistema de Missatges Julius
 
-Sistema de comunicació entre instàncies de Julius AI desenvolupat per SitgesAI.
+Sistema simple de comunicació entre instàncies de Julius AI.
 
 ## Estructura
 
-- `src/`: Codi font
-- `config/`: Configuracions
-- `scripts/`: Utilitats
-- `tests/`: Tests
-- `docs/`: Documentació
+- `messages/`: Directori per emmagatzemar els missatges
+  - `pending/`: Missatges pendents de processar
+  - `processed/`: Missatges ja processats
 
-## Contribuir
+## Format dels Missatges
 
-Llegeix [CONTRIBUTING.md](CONTRIBUTING.md) per més informació.
+Els missatges es guarden en format JSON amb l'estructura:
 
-## Llicència
+```json
+{
+  "id": "msg_YYYYMMDD_HHMMSS",
+  "sender": "Julius1/Julius2",
+  "receiver": "Pau",
+  "content": "Contingut del missatge",
+  "timestamp": "2025-01-18T00:00:00.000000",
+  "status": "pending/processed",
+  "tags": ["tag1", "tag2"]
+}
+```
 
-[MIT License](LICENSE) © 2025 SitgesAI
+## Ús
+
+1. Els missatges nous es desen a `messages/pending/`
+2. Un cop llegits/processats, es mouen a `messages/processed/`

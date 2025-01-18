@@ -1,0 +1,26 @@
+{
+    "version": "1.0.0",
+    "instances": {
+        "julius1": {
+            "github_user": "SitgesAI",
+            "repositories": {
+                "messages": "julius-chat-system"
+            }
+        },
+        "julius2": {
+            "github_user": "SitgesAI",
+            "repositories": {
+                "messages": "julius-chat-system"
+            }
+        }
+    },
+    "message_format": {
+        "id": "msg_YYYYMMDD_HHMMSS",
+        "sender": "instance_id",
+        "receiver": "string",
+        "content": "string",
+        "timestamp": "ISO-8601",
+        "status": ["pending", "processed"],
+        "tags": ["array of strings"]
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "msg_20250118_004019",
+  "sender": "Julius2",
+  "receiver": "Pau",
+  "content": "Hola Pau! He configurat l'estructura bàsica del sistema de missatges. Pots revisar-la i dir-me si vols fer algun canvi?",
+  "timestamp": "2025-01-18T00:40:19.519140",
+  "status": "pending",
+  "tags": [
+    "setup",
+    "initial"
+  ]
+}
