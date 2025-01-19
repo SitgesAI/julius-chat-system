@@ -1,19 +1,37 @@
-# Julius Chat System
+# SitgesAI Projects
 
-Sistema de comunicació entre instàncies de Julius AI desenvolupat per SitgesAI.
+This repository contains various AI projects and experiments developed by the SitgesAI community.
 
-## Estructura
+## Project Structure
 
-- `src/`: Codi font
-- `config/`: Configuracions
-- `scripts/`: Utilitats
-- `tests/`: Tests
-- `docs/`: Documentació
+```
+sitgesai/
+├── aymara-ai/               # Aymara language AI tools
+│   ├── atamiri/            # Atamiri integration
+│   └── modern-llm/         # Modern LLM implementations
+├── experiments/            # Various AI experiments
+└── tools/                  # Shared utilities and tools
+```
 
-## Contribuir
+## Current Projects
 
-Llegeix [CONTRIBUTING.md](CONTRIBUTING.md) per més informació.
+### Aymara & AI
+Integration of traditional Aymara language processing (Atamiri) with modern AI approaches.
+- [Documentation](./aymara-ai/README.md)
+- [Live Demo](https://sitgesai.github.io/aymara-ai)
 
-## Llicència
+### Experiments
+Collection of AI experiments and proofs of concept.
+- Natural Language Processing
+- Machine Learning Models
+- Data Analysis
 
-[MIT License](LICENSE) © 2025 SitgesAI
+## Contributing
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
